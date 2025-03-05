@@ -6,11 +6,11 @@ from datetime import datetime
 output = open("C:\\Users\\David\\Desktop\\fantasy.txt","w")
 
 reddit = praw.Reddit(
-    client_id="wwm3v1KBNeAiR8fYfcskcg",
-    client_secret="SuNPhkN4LaVQLdTdoLOy1OFT60xIxw",
+    client_id="",
+    client_secret="",
     user_agent="<console:BryceHall:1.0>",
     username="BryceHallBot",
-    password="Bard2018"
+    password=""
     )
 
 subreddit = reddit.subreddit("fantasyfootball")
